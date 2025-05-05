@@ -20,12 +20,23 @@
 //  func();
 
 // --------------------------default and rest parameter***********----------------
-  // if we pass different numbers as an actual parameter, rest (...) parameter stores it as an array  
+// if we pass different numbers as an actual parameter, rest (...) parameter stores it as an array  
 // function sum(...b) {
 //   let sum0 = 0;
 //   for (let i = 0; i < b.length; i++){
-//     sum0 = sum0 + b[i];
-//   }
-//   return sum0;
-// }
-// console.log(sum(8, 9, 7, 6, 8, 9, 8, 7));
+  //     sum0 = sum0 + b[i];
+  //   }
+  //   return sum0;
+  // }
+  // --------------------------parameter destructuring***********----------------9, 8, 7));
+const student= {
+  name: "waqas",
+  age : 89
+}
+  //  we can use direct oject values as a parameter in the function 
+function fun({ name, age }) {
+  console.log(` may name is ${name} and my age is ${age}`)
+
+
+}
+fun(student);
