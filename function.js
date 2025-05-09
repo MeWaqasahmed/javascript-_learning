@@ -41,7 +41,14 @@
 // }
 // fun(student);
 
-const fun = () => {
-  return 7;
-}
-console.log(fun());
+// const fun = () => {
+//   return 7;
+// }
+// console.log(fun());
+
+const arr = [9, 77, 8, 9, 88, 6, 55, 6,];
+LowToHigh =arr.sort((a, b) => {
+  return a - b;
+  
+})
+console.log(LowToHigh);
