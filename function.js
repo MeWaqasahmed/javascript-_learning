@@ -46,9 +46,25 @@
 // }
 // console.log(fun());
 
-const arr = [9, 77, 8, 9, 88, 6, 55, 6,];
-LowToHigh =arr.sort((a, b) => {
-  return a - b;
+// const arr = [9, 77, 8, 9, 88, 6, 55, 6,];
+// LowToHigh =arr.sort((a, b) => {
+//   return a - b;
   
-})
-console.log(LowToHigh);
+// })
+// console.log(LowToHigh);
+
+
+
+// function printSquare(num) {
+  
+//   result = num * num;
+//   console.log(result); // 64
+  
+//    }
+  
+//    printSquare(8);
+// {
+//    console.log("implicit global: " + result); // WHAT??!!
+// }
+
+
